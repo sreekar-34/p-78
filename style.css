@@ -1,0 +1,23 @@
+body{
+    background-color: aqua;
+    color: aquamarine;
+    border: solid;
+}
+h1{
+    color: azure;
+    text-decoration: underline;
+}
+img{
+    color: bisque;
+    border: solid;
+}
+h4{
+    color: blue;
+}
+#button{
+    background-color: aqua;
+    font-weight: bold;
+    color: black;
+    border-radius: 0px;
+    margin-bottom: 10px;
+}
