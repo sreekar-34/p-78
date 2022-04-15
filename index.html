@@ -7,22 +7,37 @@
         <link rel="stylesheet" href="style.css" type="text/css">
 
     </head>
-    <body>
-        <center>
+    <body style="text-align: center;">
+        
             <h1>
             My Family Book
         </h1>
-        <style>  </style>
         <img src="https://i.postimg.cc/MKdhy06Z/family.jpg" id="family_member_image" width="150px" height="200px">
         <h4 id="family_member_name"></h4>
-        <button>onclick="update();"Next<button>
-       <!-- Debug the above code to create a button with onclick functionality as given below-->
-        <!-- <button onclick="update();">Next</button>  -->
-       </center> 
-           
-          
+        <button onclick="update"();>Next</button>
+       <script src="main.js">
+       var images=[ 
+           "https://lh3.googleusercontent.com/EDDkE8vfkTyUZL14OmkJM5h9YhgobKa8y5DcGtKFFPKh2IqEWDT8ihej5D7XppwSFpmj5z_RJbS6hWW6iXWVo5pcl_j_9W205BBzdFHIixgRbslrN0gcyYO4mTbvWnY6koHsbZMakzKvocd_FPzAPeFTcpYAlVFu257NOcyFAoAH7tgWUUoZ21G_ohi4s--Kw5UZo-AnATcIKw6yaje_rX4f5KUAFHMA6ScFDfxDozW-xUhDqWxohrBgDrzhLjqCwZuCdQfN-yKfaGzigtTVZYxRDKlnVDyFpp7i_9TR_Mw36SJj9B0xdrEki4MHbPy83U0M637mmBY5h3S-haLfQLrMSBpRZUZ1e4YDCWJZ6kU2FnFkCHokeHZzUAYcFudzd9lm01wQLqAabSXBayuOG_3INjdBPlojONJl2WemTWW2IHtS9FcDpFFLoqC7SS-Us42DA3Vlcy30JYGJa4XqRx2t636tjxi0MCaieqqPdzxgK2sYMyQczkmkXyCwBLwrpMGZtfxjpXSGPxEgy_8AkCd_M1hgBbB1F1h4xjo2aViqgVikEvJEi6iVcyHNNsipFUphDbGw3IH-v6JXWvxHriMxkbaKhk8s3P0Hqqr2R--lQSoYQ8n2p41sWHewOKd37uFBjsXtkCeZWe8wsKHXESfpA3EkEB1R02zH5DiAxi9Qgs0Til0D2v_1PWcPRy5sI9yzbHeFj1Db8gBZF2x4Id12FeBRrw4guHf-3m-wO2e17AmAxmQjheZ8thYtJCM=w669-h893-no?authuser=0",
+           "https://lh3.googleusercontent.com/J7kPRa77tze9ZOfPxXY56y-sQJzbcFVTaVJC5lRZLfTw4zG9YxIkoIS9teBxoiGN2RARTEKGDGxYjPfGaevZbJFkh7WNx0rggZUAd2QdyYSJbht5wej9IpxI1SSbxZaUmcJGITYNTo2xpVYvY0iWKwW3IO1BiGMDRp0nXEpJGmxa2_y6NvPE14ViGGPOLBzSTfRvg2nbDmRXZjmCfhTe-Zgx3Z0ttm8PCJKB0JWoS-8sIPzcAqnIuiw1ZQq4QNgEO41J60lE3miPAprupQez_b7LNWqUm_PhgqqF-wjivtJ0oY5eo0G3kbc6qTcSFiHBLN8Jn9rqrg9N9avf0jII-Kl0R2ioFeZbd9NIwbCkqQhkhlx0U1HrdakSD2Sp8CeOsTxFZmcwpw4pkU833sejgfdgH1lhIaoTW-VwZ1CRI25K2h9E57jEsJYjDsBXGVEyQA-KVcbC2nINn9SUDYym10NSmZRrZqXMEvA_q8VP5vGyUu6N8wc5jUhu9KUz_oQ1st8XoMM1GQAyzhOgrPXHNNSZJ5imKKy9jA2lFcglmf_hrIEw7p9uCWGvLzWUmjAvjjsEB0kb8miSiHk_jVDi4M9CL-ptGsh6DrDY2NLNCQq72me6lGpPkOThsc0qHy5kFE0E2bDCOCwPf3nMabF4XyGGC1PurQMs-Pyx6zG4teQHJpMCH-aKYZI7V5_va7FqxOoTy6Y-LizJryZmM0fMWhBPVWg1RDXrfTtTYFx5bGWNt6R-_OzoGnCYigbsvUY=w503-h893-no?authuser=0",
+           "https://lh3.googleusercontent.com/N4zPTMataKWqCLObg_XVp1KshwfeA3C3b1fpZiYdtm1fQ9TuuwIn6KK-3SB4yOjMfFJzFzNJrET3bPR3sqDykNTceWHlt6h8VcPerDFOZVvrhPp3IZS25im197xd-w2A47S2gBISgBCiP3R3XIH33KKZpSEX1OeWR681CwKWjs3bAPkHKYf7U8AAzIUseN_hNejH5ha31319UZZZ53Riil3_LPjqQd9Il--5pswLFEShzswhfOeKN0qCd3Lw04OD2nmNyNC_W2SBjbr1lis3R_SYRp7nBLAgDa_BKHCCkIdGyp-dneuQom602Ui10UdS4G-ob5Bk1MGhd_Im1veF3ET1OjIi_K5UPjj9-eCEEzmK6b_EmYSLmfadTuRcxSMqEFztcKfcQQORzLdGtf4ynvVM1YofpISdfAdBRLcbzlqYJjx4gwNJnILd99S4VZuhe3zSlcche0pqG8IMC0by8xYnHS23Jynt5pQdeN8BGHqERFkjp4d0z3z1T0XR1rHE0uTooU-CPvaGzFmKTlRkDoYtBDbs40tz6KRsjhWSfUmyrusD7ggEWpzigDE7gJHUbqIS082T0gTyR3w6BjpJs5Q829TKaI_rGcLcy88eVeZWH4cg_KI8GkzM6H4LX1j8_C_RiWpI7sKwf_S2YrKRwh_jb8CPnk-bfENJaRdojzFVIULcgiEXvryQRDhy4cV5IfK7sDAxotfheq_Lll00AKueaayPmpm6wzY6aI49LUZZLn6wevCD90L8pU_17xg=w503-h893-no?authuser=0",
+           "https://lh3.googleusercontent.com/gcoU5VOIEYeX7Qw5wyjybd-dEUUUEa1empD88xPjxJok-aTfrNAVG9apts13xzjMpLIBlthIbVx7Kg9BkXd5nEKdLvzIJCFCCHrAFQitiyj1ObVLkDf79I0pLjM2FNAwMYq0fk-rRs6MqXnlTjfZozOopYdHjXeFgeII2XWrnTjzbgnAygVVTwMORn1YOP5OTbOt7ZjNOXDN9eV_18vEtB-ApQ6R9yDQWfKM0KHihZItGbBeDs8FXKv6QvU3OC9e1HDuUCsFDyAINlyIvZZsXLHJPivg_xYwocmn0RwygLAnLf77ubeYKHzKGq41AmD16SqsYferH9niYsAMEyHiLPR7fdlH1pExMH26JV91RDM-wlb3U3XGI-665NDpisMDZMfb3dfoQX9J8DfaeaVxXCUloj8jGjaXj3WZkqRMIdsKYpsKMhlHWpCuEn8XUd9e7AbPWIgqTbe6f-2op-2Yyqv50v6nGjN0OxHvKGOqUA2747KCEI4Z6dSS7KlpEISqqzt5iK5JAbMAlQE-5oXawhXn8CshQvoYV8K2HK5h1fOzNIBd75m7Dpb3QWv7p7SrRfGBW1r0TWeFdHQOmFLy-WFfuUwlHgsviGS14cze0iS88z3HfuSG288IsgDcPwST131L-fzAqwYBboEKldy6v-KQXp_9uIK4y96RZ_dsZKYkEowjBE_Gt8YABm3Qwb2rurxMMlVpAyEnu-WCpCEIPtRTYKTPQ2B57x96IaibJJuR_QmfddTkeC9SiN7lD8o=w503-h893-no?authuser=0",
+           "https://lh3.googleusercontent.com/Ptt1lDNtH-z86RU3iao8F74Dcte8qyvUCDGutg8LRh2GUrY-1Znz6dAysGZWUpIxMYNwSP0Fjqz9YD-oR6wa6Pg902rTpNbC9MCPqwWMIlktKsiF0sAdROpUTAM6OIDgIfncPGDujEfoohMsbtBl77_idsEtOAgAwYonot1O0zxo2KwMKjk10eR4trA-w-yGZOzJ2nhHasSGp9kQPzLEZStIy1o8M1NOgmmUzu_yS1Y-4IHK_x_6Xi0bdKy5ersUekeW44lSnJoMx_F5a6d0z_4yQbphW94xiLJhwRAPv8V9HnzUqmiscZCdx5ZwtVqEgYhuAQQu1EI972v4TgZvWf_ywrMEoZZ_deCiZWbhglYZmPWPgCCsUxNoznmm1vOH1SSJAOTg_iOE9qIknHsa93KH3SQ16Fe6onkYFP4MW2MYuiy5BIG1eQPAHQ3qbuzGvVUfTguXvgmpMaxAbaffQhbgn28ffapQP2UnLX8xZ4o1K9Z2Kj9S-TtkQRRc8hF3udF_PPrBa4Iof4s-Kvf0bXpf1fw03HcaDYpW0NtXjoOnAnSzkyGzKQWTQHEqvpG9KgD5wD3YmbdGbY9SjHWU6yRLcone-kGfw0UiKeC-0jUlAB7BeS7QXv1NB2ShIO05f9KcgzPB7Q7T78Tvmd3zWpiegnW8U26FHHt9iNsqPBSAPA376gkF2dO83JrVH6MZxqvFnpuwTa7exX3hGJzof7xaOciknzwl88UtIDiDOAJGfD8hthMk_bRhbj-5wDE=w503-h893-no?authuser=0", ]
+        var names=[ "sreekar","sharanya","soujanya","rajesh","kusuma"]
         
+        var i=0;
+        function update() {
+            i++
+            var number_of_family_in_array =4;
+            if(i > number_of_family_in_array)
+            {
+                i=0
+            }
+            var updatedimage=images[i]
+            var updatedname=names[i]
+            document.getElementById("family_member_image").src = updatedimage;
+            documeny.getElementById("family_member_name").innerHTML = updatedname;
+        }
 
-        <script src="main.js"></script>
+       </script>
     </body>
 </html>
